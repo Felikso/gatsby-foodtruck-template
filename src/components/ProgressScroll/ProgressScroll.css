@@ -1,0 +1,37 @@
+:root {
+    --bar0-color: rgb(82, 82, 82);
+  
+    --bar1-color: #553a00;
+    --bar2-color: #885d01;
+    --bar3-color: #a97300;
+  
+  
+   
+    
+    --social-icon-hover: rgb(21, 21, 21);
+  }
+  
+  
+  
+  @media (min-width: 900px){
+      .progress-scroll-container {
+          width: 100%;
+          height: 8px;
+          background: var(--bar0-color);
+          position: fixed;
+          bottom: 0;
+        }
+        
+        .progress-scroll-bar {
+          height: 8px;
+  
+          background: var(--bar1-color);  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, var(--bar1-color),var(--bar2-color),var(--bar3-color));  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, var(--bar1-color),var(--bar2-color),var(--bar3-color)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+          width: 0%;
+        }
+  }
+  
+  
+  
