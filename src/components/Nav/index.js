@@ -3,28 +3,10 @@ import { Link } from 'gatsby'
 
 import SvgVentusTradeLogo from "./SvgVentusTradeLogo"
 import ProgressBar from "./ProgressBar"
+import NavData from "./navData"
 import './Nav.scss'
 
 const brandName = "Ventus Trade"
-
-const NavData = [
-    {
-        name: 'strona główna',
-        path: '/'
-    },
-    {
-        name: 'oferta',
-        path: '/oferta'
-    },
-    {
-        name: 'o nas',
-        path: '/o-nas'
-    },
-    {
-        name: 'kontakt',
-        path: '/kontakt'
-    }
-]
 
 export default function Nav() {
     const [click, setClick] = useState(false);
